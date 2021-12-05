@@ -11,3 +11,10 @@
 <h3 align="center"> 
    Easy start
 </h3>
+yaml ```
+# when you want to use this module always import those stuffs and use pprint function instend instead of defualt print fucntion.
+from Ethio_jobs.ethio_jobs import EthioJobs
+from Ethio_jobs.deeptable import TableData
+from Proxy import proxies
+from pprint import pprint
+```
