@@ -30,5 +30,7 @@ create an instance of EthioJobs form EthioJobs class
 my_job = EthioJobs('manager')
 my_job.numberofjobs()
 ```
-#output
-aaa
+<b>output</b>
+
+132 manager jobs has been found!
+
