@@ -63,3 +63,19 @@ pprint(my_job.scraped_campany_names(),indent=3)
  'Gift Real Estate P.L.C','Gift Real Estate P.L.C','Plan International Ethiopia',
  'Plan International Ethiopia','Cuso International','Cuso International']
 ```
+<b>input code</b>
+```yaml
+To get dead line dates for query job 
+N.B returns only dead  link like a list object 
+my_job = EthioJobs('manager')
+pprint(my_job.scraped_campany_jobs_dead_line(),indent=3)
+```
+
+<b>output</b>
+
+```console
+['Dec 14, 2021','Dec 14, 2021','Dec 11, 2021',
+ 'Dec 13, 2021','Dec 10, 2021','Dec 13, 2021',
+ 'Dec 13, 2021','Dec 11, 2021','Dec 10, 2021',
+ 'Dec 14, 2021']
+```
