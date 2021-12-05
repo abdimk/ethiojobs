@@ -9,7 +9,9 @@
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
 <h3 align="center"> 
-   Easy start
+   Easy start 
+    <logger>
+    critical warning Use pycharm No vscode No sublime No Vim No nothing 
 </h3>
 
 ```console
