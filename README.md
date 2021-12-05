@@ -155,3 +155,186 @@ pprint(my_job.job_over_all(),indent=5)
  
  
 ```
+<b>input code</b>
+```yaml
+To see new job by catagory
+job = TableData()
+pprint(job.jobs_by_catagory())
+```
+<b>output</b>
+```console
+[('Accounting and Finance Jobs',
+  '53',
+  'https://www.ethiojobs.net/browse-by-category/Accounting%20and%20Finance/'),
+ ('Admin, Secretarial and Cl... Jobs',
+  '8',
+  'https://www.ethiojobs.net/browse-by-category/Admin%2C%20Secretarial%20and%20Clerical/'),
+ ('Agriculture Jobs',
+  '12',
+  'https://www.ethiojobs.net/browse-by-category/Agriculture/'),
+ ('Architecture and Construc... Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Architecture%20and%20Construction/'),
+ ('Automotive Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Automotive/'),
+ ('Banking and Insurance Jobs',
+  '8',
+  'https://www.ethiojobs.net/browse-by-category/Banking%20and%20Insurance/'),
+ ('Business Development Jobs',
+  '13',
+  'https://www.ethiojobs.net/browse-by-category/Business%20Development/'),
+ ('Business and Administration Jobs',
+  '35',
+  'https://www.ethiojobs.net/browse-by-category/Business%20and%20Administration/'),
+ ('Communications, PR and Jo... Jobs',
+  '3',
+  'https://www.ethiojobs.net/browse-by-category/Communications%2C%20PR%20and%20Journalism/'),
+ ('Community Service Jobs',
+  '5',
+  'https://www.ethiojobs.net/browse-by-category/Community%20Service/'),
+ ('Consultancy and Training Jobs',
+  '19',
+  'https://www.ethiojobs.net/browse-by-category/Consultancy%20and%20Training/'),
+ ('Creative Arts Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Creative%20Arts/'),
+ ('Customer Service Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Customer%20Service/'),
+ ('Development and Project M... Jobs',
+  '33',
+  'https://www.ethiojobs.net/browse-by-category/Development%20and%20Project%20Management/'),
+ ('Economics Jobs',
+  '16',
+  'https://www.ethiojobs.net/browse-by-category/Economics/'),
+ ('Education Jobs',
+  '8',
+  'https://www.ethiojobs.net/browse-by-category/Education/'),
+ ('Engineering Jobs',
+  '10',
+  'https://www.ethiojobs.net/browse-by-category/Engineering/'),
+ ('Environment and Natural R... Jobs',
+  '5',
+  'https://www.ethiojobs.net/browse-by-category/Environment%20and%20Natural%20Resource/'),
+ ('Health Care Jobs',
+  '27',
+  'https://www.ethiojobs.net/browse-by-category/Health%20Care/'),
+ ('Hotel and Hospitality Jobs',
+  '2',
+  'https://www.ethiojobs.net/browse-by-category/Hotel%20and%20Hospitality/'),
+ ('Human Resource and Recrui... Jobs',
+  '7',
+  'https://www.ethiojobs.net/browse-by-category/Human%20Resource%20and%20Recruitment/'),
+ ('Information Technology Jobs',
+  '7',
+  'https://www.ethiojobs.net/browse-by-category/Information%20Technology/'),
+ ('Languages Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Languages/'),
+ ('Legal Jobs', '6', 'https://www.ethiojobs.net/browse-by-category/Legal/'),
+ ('Logistics, Transport and ... Jobs',
+  '10',
+  'https://www.ethiojobs.net/browse-by-category/Logistics%2C%20Transport%20and%20Supply%20Chain/'),
+ ('Management Jobs',
+  '21',
+  'https://www.ethiojobs.net/browse-by-category/Management/'),
+ ('Manufacturing Jobs',
+  '2',
+  'https://www.ethiojobs.net/browse-by-category/Manufacturing/'),
+ ('Media and Journalism Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Media%20and%20Journalism/'),
+ ('Natural Sciences Jobs',
+  '7',
+  'https://www.ethiojobs.net/browse-by-category/Natural%20Sciences/'),
+ ('Pharmaceutical Jobs',
+  '3',
+  'https://www.ethiojobs.net/browse-by-category/Pharmaceutical/'),
+ ('Purchasing and Procurement Jobs',
+  '2',
+  'https://www.ethiojobs.net/browse-by-category/Purchasing%20and%20Procurement/'),
+ ('Research and Development Jobs',
+  '4',
+  'https://www.ethiojobs.net/browse-by-category/Research%20and%20Development/'),
+ ('Retail, Wholesale and Dis... Jobs',
+  '4',
+  'https://www.ethiojobs.net/browse-by-category/Retail%2C%20Wholesale%20and%20Distribution/'),
+ ('Sales and Marketing Jobs',
+  '17',
+  'https://www.ethiojobs.net/browse-by-category/Sales%20and%20Marketing/'),
+ ('Science and Technology Jobs',
+  '3',
+  'https://www.ethiojobs.net/browse-by-category/Science%20and%20Technology/'),
+ ('Security Jobs',
+  '5',
+  'https://www.ethiojobs.net/browse-by-category/Security/'),
+ ('Social Sciences and Commu... Jobs',
+  '39',
+  'https://www.ethiojobs.net/browse-by-category/Social%20Sciences%20and%20Community/'),
+ ('Telecommunications Jobs',
+  '1',
+  'https://www.ethiojobs.net/browse-by-category/Telecommunications/'),
+ ('Veterinary Services Jobs',
+  '2',
+  'https://www.ethiojobs.net/browse-by-category/Veterinary%20Services/'),
+ ('Warehouse, Supply Chain a... Jobs',
+  '10',
+  'https://www.ethiojobs.net/browse-by-category/Warehouse%2C%20Supply%20Chain%20and%20Distribution/'),
+ ('Water and Sanitation Jobs',
+  '5',
+  'https://www.ethiojobs.net/browse-by-category/Water%20and%20Sanitation/')]
+```
+
+<b>input code</b>
+```yaml
+To get latest available goverment jobs
+job = TableData()
+pprint(job.latest_goverment_jobs())
+```
+<b>output</b>
+```console
+[('Purchase Expert',
+  ' 3 days  ago',
+  'Ethiopian Trade Business Corporation Fruit and...'),
+ ('Technical Assistant', ' 4 days  ago', 'Wachemo University'),
+ ('Technical Assistant', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University'),
+ ('Senior Technical Assistant', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University'),
+ ('Lecturer and Above', ' 4 days  ago', 'Wachemo University')]
+```
+<b>input code</b>
+```yaml
+To get available jobs by location
+job = TableData()
+pprint(job.jobs_by_location())
+```
+```console
+[('Jobs in Addis Ababa', '132'),
+ ('Jobs in Afar', '2'),
+ ('Jobs in Amhara', '17'),
+ ('Jobs in Benishangul Gumuz', '1'),
+ ('Jobs in Dire Dawa', '2'),
+ ('Jobs in Gambela', '5'),
+ ('Jobs in Harari', '1'),
+ ('Jobs in Oromia', '12'),
+ ('Jobs in Sidama', '2'),
+ ('Jobs in Somali', '4'),
+ ('Jobs in SNNPR', '2'),
+ ('Jobs in Tigray', '4')]
+```
+
+<h2> welcome to the intersting part live graph using pyplot</h2>
+<b>input code</b>
+```yaml
+To view pie plot graph in new avalible jobs by location
+job = TableData()
+pprint(job.pyplot_job_by_location_pie())
+```
+<b>output</b>
+```console
+```
