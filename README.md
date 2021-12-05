@@ -134,3 +134,24 @@ pprint(my_job.scraped_campany_jobs_info())
  'harnessing the power of volunteerism to achieve the SDGs; (ii) advancing '
  'gender equality and the...']
 ```
+<b>input code</b>
+```yaml
+To get over all information about your query
+my_job = EthioJobs('manager')
+pprint(my_job.job_over_all(),indent=5)
+```
+<b>output</b>
+```console
+['Today','Dec 14, 2021','Abays Trading PLC','Addis Ababa','Senior Level (5+ years experience)','Dec 14, 2021',
+ 'Today','Dec 14, 2021','Abays Trading PLC','sululta, Oromia','Mid Level ( 2+ - 5 years experience)','Dec 14, 2021',
+ 'Yesterday','Dec 11, 2021','Gift Real Estate P.L.C','Addis ababa, Addis Ababa','Managerial Level (Manager, Supervisor, Director)','Dec 11, 2021',
+ 'Yesterday','Dec 13, 2021','Geneva Global','Addis Ababa','Managerial Level (Manager, Supervisor, Director)','Dec 13, 2021',
+ '2 days ago','Dec 10, 2021',,'Safaricom Telecommunications Ethiopia PLC',Addis Ababa','Managerial Level (Manager, Supervisor, Director)','Dec 10, 2021'
+ '2 days ago','Dec 13, 2021','Senselet Food Processing PLC','Addis Ababa','Senior Level (5+ years experience)','Dec 13, 2021',
+ '2 days ago','Dec 13, 2021','The Lutheran World Federation World Service - Ethiopia','Amhara region, Amhara','Mid Level ( 2+ - 5 years experience)','Dec 13, 2021',
+ '2 days ago','Dec 11, 2021','Gift Real Estate P.L.C','addis ababa, Addis Ababa','Managerial Level (Manager, Supervisor, Director)','Dec 11, 2021',
+ '2 days ago','Dec 10, 2021','Plan International Ethiopia','Gambela','Mid Level ( 2+ - 5 years experience)','Dec 10, 2021',
+ '2 days ago','Dec 14, 2021','Cuso International','Addis Ababa','Senior Level (5+ years experience)','Dec 14, 2021']
+ 
+ 
+```
