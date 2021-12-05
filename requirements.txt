@@ -1,0 +1,6 @@
+requests==2.26.0
+urllib3==1.26.7
+matplotlib==3.5.0
+beautifulsoup4==4.10.0
+numpy==1.21.2
+lxml==4.6.4
