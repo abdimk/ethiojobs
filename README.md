@@ -46,5 +46,20 @@ pprint(my_job.scraped_jobs_title(),indent=3)
  'Hygiene & Sanitation Officer ','Tender Division Manager ','WASH Project Coordinator ',
  'Immediate Vacancy - Program Officer – Operation ']
  ```
+<b>input code</b>
+```yaml
+To get the campany names only
 
-
+my_job = EthioJobs('manager')
+pprint(my_job.scraped_campany_names(),indent=3)
+```
+<b>output</b>
+```console
+['Abays Trading PLC','Abays Trading PLC','Abays Trading PLC',
+ 'Abays Trading PLC','Gift Real Estate P.L.C','Gift Real Estate P.L.C',
+ 'Geneva Global','Geneva Global','Safaricom Telecommunications Ethiopia PLC',
+ 'Safaricom Telecommunications Ethiopia PLC','Senselet Food Processing PLC','Senselet Food Processing PLC',
+ 'The Lutheran World Federation World Service - Ethiopia','The Lutheran World Federation World Service - Ethiopia',
+ 'Gift Real Estate P.L.C','Gift Real Estate P.L.C','Plan International Ethiopia',
+ 'Plan International Ethiopia','Cuso International','Cuso International']
+```
