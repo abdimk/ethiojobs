@@ -21,7 +21,7 @@
     from Proxy import proxies
     from pprint import pprint
 ```
-
+<b>input code</b>
 ```yaml
 uses
 
@@ -34,14 +34,17 @@ pprint(my_job.numberofjobs())
 
 132 manager jobs has been found!
 
+<b>input code</b>
 ```yaml
 To get the title of all available mangment jobs
 pprint(my_job.scraped_jobs_title(),indent=3)
 ```
 <b>output</b>
+```console
 ['ACCOUNTANT ','Accountant ( COST ACCOUNTANT ; FACTORY EXP MUST) ','Marketing  Department Manger ',
  'Project Director ','Manager - ERP Management and Support ','Import and Export Coordinator ',
  'Hygiene & Sanitation Officer ','Tender Division Manager ','WASH Project Coordinator ',
  'Immediate Vacancy - Program Officer – Operation ']
+ ```
 
 
