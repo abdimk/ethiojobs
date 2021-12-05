@@ -79,3 +79,57 @@ pprint(my_job.scraped_campany_jobs_dead_line(),indent=3)
  'Dec 13, 2021','Dec 11, 2021','Dec 10, 2021',
  'Dec 14, 2021']
 ```
+<b>input code</b>
+```yaml
+To get query campany jobs info
+
+my_job = EthioJobs('manager')
+pprint(my_job.scraped_campany_jobs_info())
+```
+
+```console
+['  Summary of Role and Responsibilities      Will be responsible for all '
+ 'financial and of the company and will report to and work closely with, the '
+ 'company management team.      Finance Management      Overall responsibility '
+ 'for all aspects of financial management and control.  Effective financial '
+ 'reporting for the company, in a timely, accurate, relevant manner.  '
+ 'Maintaining accounts general...',
+ '',
+ '  About Geneva Global     Geneva Global is an international philanthropy '
+ 'advising company that provides strategic advice, independent research, '
+ 'active program and grant management, and impact measurement to individuals, '
+ 'foundations, companies, and other organizations. The company is a subsidiary '
+ 'of Global Impact, a trusted advisor, intermediary, and implementing partner '
+ 'in the international...',
+ '  About Us    Safaricom Telecommunications Ethiopia Plc is a company '
+ 'supporting Ethiopia’s digital transformation. As a member of the Vodacom '
+ 'family, we have a wealth of experience connecting over 334 million people '
+ 'globally and over 180 million people in Africa across our network. We look '
+ 'forward to partnering with Ethiopians as we build a new network in '
+ 'Ethiopia.   We are setting the...',
+ '  Introduction  :  Senselet imports some raw materials, spare parts, '
+ 'production consumables and specific equipment or vehicles for projects .The '
+ 'import and export coordinator is responsible for managing the import and the '
+ 'export of the company, in particular the follow up of all imported and '
+ 'exported items, working together with procurement coordinator, Manage the '
+ 'customs cleaning process with...',
+ ' Lutheran World Federation World Service Ethiopia is a registered foreign '
+ 'charity which has been operating in Ethiopia since 1973 implementing various '
+ 'development and humanitarian projects in different parts of Ethiopia. LWF '
+ 'Ethiopia works closely with the Ethiopian Evangelical Church Mekane Yesus '
+ '(EECMY), the Ethiopian Government, UN organizations and other funding '
+ 'partners.xa0 Its thematic...',
+ '',
+ ' Plan International is an independent child rights and humanitarian '
+ 'organisation committed to children living a life free of poverty, violence '
+ 'and injustice.    We actively unite children, communities and other people '
+ 'who share our mission to make positive lasting changes in children’s and '
+ 'young people’s lives. We support children to gain the skills, knowledge and '
+ 'confidence they need to claim...',
+ '  Summary     Cuso International is a Canadian development non-profit '
+ 'organisation that works to reduce poverty and inequality through the efforts '
+ 'of highly skilled volunteers, collaborative partnerships and compassionate '
+ 'donors.xa0 Cuso International main areas of interventions are (i) '
+ 'harnessing the power of volunteerism to achieve the SDGs; (ii) advancing '
+ 'gender equality and the...']
+```
