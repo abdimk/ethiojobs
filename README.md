@@ -22,3 +22,13 @@
     from pprint import pprint
 ```
 
+```yaml
+uses
+
+To search how many jobs are available in ethio jobs
+create an instance of EthioJobs form EthioJobs class
+my_job = EthioJobs('manager')
+my_job.numberofjobs()
+```
+#output
+aaa
