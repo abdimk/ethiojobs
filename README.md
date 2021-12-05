@@ -9,5 +9,5 @@
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
 <h3 align="center"> 
-    Ready to use method
+   Easy start
 </h3>
