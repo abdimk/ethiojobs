@@ -328,8 +328,10 @@ pprint(job.jobs_by_location())
  ('Jobs in Tigray', '4')]
 ```
 
-<h2> welcome to the intersting part live graph using pyplot</h2>
+<h2> welcome to the intersting part live graph using matplotlib</h2>
+
 <b>input code</b>
+
 ```yaml
 To view pie plot graph in new avalible jobs by location
 job = TableData()
@@ -337,4 +339,5 @@ pprint(job.pyplot_job_by_location_pie())
 ```
 <b>output</b>
 ```console
+end
 ```
