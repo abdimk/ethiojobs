@@ -87,6 +87,7 @@ my_job = EthioJobs('manager')
 pprint(my_job.scraped_campany_jobs_info())
 ```
 
+<b>output</b>
 ```console
 ['  Summary of Role and Responsibilities      Will be responsible for all '
  'financial and of the company and will report to and work closely with, the '
