@@ -14,7 +14,7 @@
     critical warning Use pycharm No vscode No sublime No Vim No nothing 
 </h3>
 
-```console
+```yaml
     when you want to use this module always import those stuffs and use pprint function instend instead of defualt print fucntion.
     
     
@@ -33,9 +33,9 @@ my_job = EthioJobs('manager')
 pprint(my_job.numberofjobs())
 ```
 <b>output</b>
-
+```console
 132 manager jobs has been found!
-
+```
 <b>input code</b>
 ```yaml
 To get the title of all available mangment jobs
