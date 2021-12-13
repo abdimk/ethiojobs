@@ -341,5 +341,6 @@ pprint(job.pyplot_job_by_location_pie())
 ```
 <b>output</b>
 ```console
-end
+None
 ```
+    <a href='#'><img src='images/Screenshot 2021-12-04 233631.png'></a>
