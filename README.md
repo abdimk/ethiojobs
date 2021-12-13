@@ -343,13 +343,6 @@ pprint(job.pyplot_job_by_location_pie())
 ```console
 None
 ```
-
- <h1 align="center"> 
-    ✨ EthioJobs✨ 
-</h1>
-<h3 align="center"> 
-    Search and Find Jobs in Ethiopia
-</h3>
 <p align="center">
     <a href="https://python.org">
         <img src="images/cat.png" alt="made-with-python">
