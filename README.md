@@ -343,4 +343,14 @@ pprint(job.pyplot_job_by_location_pie())
 ```console
 None
 ```
-    <a href='#'><img src='images/Screenshot 2021-12-04 233631.png'></a>
+
+ <h1 align="center"> 
+    ✨ EthioJobs✨ 
+</h1>
+<h3 align="center"> 
+    Search and Find Jobs in Ethiopia
+</h3>
+<p align="center">
+    <a href="https://python.org">
+        <img src="images/cat.png" alt="made-with-python">
+    </a>
