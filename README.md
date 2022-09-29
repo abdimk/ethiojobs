@@ -11,7 +11,7 @@
 <h3 align="center"> 
    Easy start 
     <logger>
-    critical warning Use pycharm No vscode No sublime No Vim No nothing.
+   
 </h3>
 
 ```yaml
